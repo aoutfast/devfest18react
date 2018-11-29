@@ -1,0 +1,19 @@
+.task-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task-timer-counter {
+  font-size: 1.5em;
+  margin: 0.3em auto;
+}
+
+.task-timer-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.task-timer-actions .start {
+  background: #33ba7b;
+  color: white;
+}
